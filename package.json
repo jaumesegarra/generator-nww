@@ -1,0 +1,37 @@
+{
+  "name": "generator-nww",
+  "version": "0.5",
+  "description": "Yeoman generator for NW.js, Angular, Jquery, [Bootstrap] and Node",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "https://github.com/jaumesegarra/generator-nww",
+  "author": {
+    "name": "Jaume Segarra",
+    "email": "jaumesegarra.jobs@protonmail.com",
+    "url": "https://github.com/jaumesegarra"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "Angular",
+    "NW.JS",
+    "NWW",
+    "Node",
+    "Bootstrap",
+    "JQuery"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2",
+    "compass": "latest"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
