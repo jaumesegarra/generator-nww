@@ -1,6 +1,6 @@
 {
   "name": "generator-nww",
-  "version": "0.5",
+  "version": "1.0.1",
   "description": "Yeoman generator for NW.js, Angular, Jquery, [Bootstrap] and Node",
   "license": "MIT",
   "main": "app/index.js",

@@ -1,4 +1,6 @@
 {
 	"directory" : "bower_components",
-	"scripts": {}
+	"scripts": {
+		"postinstall": "grunt bower"
+	}
 }
