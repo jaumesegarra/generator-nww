@@ -15,7 +15,7 @@ var ControllerGenerator = yeoman.generators.NamedBase.extend({
         
         this.fs.copyTpl(
                 this.templatePath('controller.js'),
-                this.destinationPath('app/js/'+this.name+'Ctrl.js'), {
+                this.destinationPath('app/js/'+this.name+'.js'), {
                     scriptAppName: this.appname,
                     classedName: this.name
                 }

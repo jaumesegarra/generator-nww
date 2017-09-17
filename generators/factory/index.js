@@ -15,7 +15,7 @@ var FactoryGenerator = yeoman.generators.NamedBase.extend({
         
         this.fs.copyTpl(
                 this.templatePath('factory.js'),
-                this.destinationPath('app/js/'+this.name+'Fct.js'), {
+                this.destinationPath('app/js/'+this.name+'.js'), {
                     scriptAppName: this.appname,
                     classedName: this.name
                 }

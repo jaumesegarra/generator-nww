@@ -15,7 +15,7 @@ var ServiceGenerator = yeoman.generators.NamedBase.extend({
         
         this.fs.copyTpl(
                 this.templatePath('service.js'),
-                this.destinationPath('app/js/'+this.name+'Srv.js'), {
+                this.destinationPath('app/js/'+this.name+'.js'), {
                     scriptAppName: this.appname,
                     classedName: this.name
                 }

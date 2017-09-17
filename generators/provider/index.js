@@ -15,7 +15,7 @@ var ProviderGenerator = yeoman.generators.NamedBase.extend({
         
         this.fs.copyTpl(
                 this.templatePath('provider.js'),
-                this.destinationPath('app/js/'+this.name+'Prv.js'), {
+                this.destinationPath('app/js/'+this.name+'.js'), {
                     scriptAppName: this.appname,
                     classedName: this.name
                 }
