@@ -1,6 +1,6 @@
 generator-nww
 ================================
->A NW.JS (Node-Webkit) yeoman generator for NW.js, [Bootstrap], Angular and Jquery
+>A NW.JS (Node-Webkit) yeoman generator for NW.js, [Bootstrap+Jquery] and Angular 
 
 Yeoman generator for NW.js (Node-Webkit). This generator is a fork of generator-wean but without express and with improved features
 

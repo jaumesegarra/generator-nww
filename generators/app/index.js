@@ -37,18 +37,18 @@ module.exports = yeoman.generators.Base.extend({
                 name: 'license',
                 message: 'How would you love to license the project?',
                 default: "MIT"
-        },
-            {
-                type: 'confirm',
-                name: 'bc_bootstrap',
-                message: 'Do you want use bootstrap?',
-                default: true
-        },
+        },  
             {
                 type: 'input',
                 name: 'node_version',
                 message: 'What is node webview version do you want use?',
                 default: "0.20.1"
+        },
+            {
+                type: 'confirm',
+                name: 'bc_bootstrap',
+                message: 'Do you want use Bootstrap+Jquery?',
+                default: true
         }];
 
         this.prompt(prompts, function (props) {
@@ -58,7 +58,7 @@ module.exports = yeoman.generators.Base.extend({
             if(props.bc_bootstrap){
                 props.bower_components["bootstrap"] = "latest";
                 props.bc_bootstrap_css = '<link rel="stylesheet" type="text/css" href="css/_vendor/bootstrap/bootstrap.css">';
-                props.bc_bootstrap_js = '<script src="js/_vendor/bootstrap/bootstrap.min.js"></script>';
+                props.bc_bootstrap_js = '<script src="js/_vendor/jquery/jquery.js"></script>\r\n <script src="js/_vendor/bootstrap/bootstrap.min.js"></script>';
             }else{
                 props.bc_bootstrap_css = '';
                 props.bc_bootstrap_js = '';
