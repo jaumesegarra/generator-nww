@@ -4,6 +4,9 @@ generator-nww
 
 Yeoman generator for NW.js (Node-Webkit). This generator is a fork of generator-wean but without express and with improved features
 
+As well for [slush](https://www.npmjs.com/package/slush-nww)
+
+
 ## Requirements
 * [Node](https://nodejs.org)
 * [Grunt](http://gruntjs.com/)
